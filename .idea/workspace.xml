@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaFullStack30JanBatch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/DataTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/InternalWorking" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/JDK-JRE-JVM" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/JVM Architecture" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/jdk-jvm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/Variables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +51,7 @@
       <recent name="$PROJECT_DIR$/src/common" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="common" />
       <recent name="" />
     </key>
   </component>
