@@ -8,8 +8,10 @@ public class IfStatementDemo {
             System.out.println(a +" is greater than "+b);
         }else {
             System.out.println(a +" is smaller than "+b);
-
         }
+
+        System.out.println(a>b ? a +" is greater than "+b : a +" is smaller than "+b);
+
 
         //if--else--if
 

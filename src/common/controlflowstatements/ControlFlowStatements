@@ -6,6 +6,8 @@
             3) if-else-if
             4)Nested if
         b) switch stmts
+            - works int,byte,short,long,String,Byte,Short,Integer,Long,enums
+            - duplicate case label compile time error will come in case of duplicate value
 2. Loop Stmts
         a) do while
         b) while
@@ -14,3 +16,9 @@
 3. Jump Stmts
         a) break stmt
         b) continue stmt
+
+
+ Homework
+ 1. Program to check whether given character is Vowel or consonant
+  a vowel
+  n consonant
