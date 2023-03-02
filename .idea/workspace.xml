@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="ControlFlowStatements">
-      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/SwitchDemo.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="switch statement">
+      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/ForLoopDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/TableNo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/controlflowstatements/ControlFlowStatements" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/controlflowstatements/ControlFlowStatements" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/controlflowstatements/IfStatementDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/controlflowstatements/IfStatementDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SwitchDemo">
+  <component name="RunManager" selected="Application.TableNo">
+    <configuration name="ForLoopDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.ForLoopDemo" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="common.controlflowstatements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IfStatementDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.IfStatementDemo" />
       <module name="JavaFullStack30JanBatch" />
@@ -85,19 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperatorImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common.operators.OperatorImpl" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="common.operators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SwitchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.SwitchDemo" />
       <module name="JavaFullStack30JanBatch" />
@@ -111,13 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common.Test" />
+    <configuration name="TableNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.TableNo" />
       <module name="JavaFullStack30JanBatch" />
-      <option name="PROGRAM_PARAMETERS" value="12 codekul" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common.*" />
+          <option name="PATTERN" value="common.controlflowstatements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,19 +124,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ForLoopDemo" />
+      <item itemvalue="Application.TableNo" />
       <item itemvalue="Application.SwitchDemo" />
       <item itemvalue="Application.IfStatementDemo" />
       <item itemvalue="Application.MinMax" />
-      <item itemvalue="Application.OperatorImpl" />
-      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TableNo" />
+        <item itemvalue="Application.ForLoopDemo" />
         <item itemvalue="Application.SwitchDemo" />
         <item itemvalue="Application.MinMax" />
         <item itemvalue="Application.IfStatementDemo" />
-        <item itemvalue="Application.OperatorImpl" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -179,77 +177,40 @@
       <option name="project" value="LOCAL" />
       <updated>1677063369929</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="switch statement">
+      <created>1677669686560</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677669686560</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Variables" />
     <MESSAGE value="Operators" />
     <MESSAGE value="ControlFlowStatements" />
-    <option name="LAST_COMMIT_MESSAGE" value="ControlFlowStatements" />
+    <MESSAGE value="switch statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="switch statement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/SwitchDemo.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/SwitchDemo.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/SwitchDemo.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/SwitchDemo.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/SwitchDemo.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/SwitchDemo.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/SwitchDemo.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/SwitchDemo.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/SwitchDemo.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/SwitchDemo.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/SwitchDemo.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/SwitchDemo.java</url>
-          <line>35</line>
+          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/ForLoopDemo.java</url>
+          <line>4</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/ForLoopDemo.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/ForLoopDemo.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
