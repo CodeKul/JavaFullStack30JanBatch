@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="switch statement">
-      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/ForLoopDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/TableNo.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="for loop">
+      <change afterPath="$PROJECT_DIR$/src/assignment/StarPattern" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/NestedForLoopDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/StarPtn1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TableNo">
+  <component name="RunManager" selected="Application.StarPtn1">
     <configuration name="ForLoopDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.ForLoopDemo" />
       <module name="JavaFullStack30JanBatch" />
@@ -71,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfStatementDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.IfStatementDemo" />
+    <configuration name="NestedForLoopDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.NestedForLoopDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.MinMax" />
+    <configuration name="StarPtn1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.StarPtn1" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -124,19 +125,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.NestedForLoopDemo" />
+      <item itemvalue="Application.StarPtn1" />
       <item itemvalue="Application.ForLoopDemo" />
       <item itemvalue="Application.TableNo" />
       <item itemvalue="Application.SwitchDemo" />
-      <item itemvalue="Application.IfStatementDemo" />
-      <item itemvalue="Application.MinMax" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StarPtn1" />
+        <item itemvalue="Application.NestedForLoopDemo" />
         <item itemvalue="Application.TableNo" />
         <item itemvalue="Application.ForLoopDemo" />
         <item itemvalue="Application.SwitchDemo" />
-        <item itemvalue="Application.MinMax" />
-        <item itemvalue="Application.IfStatementDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677669686560</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="for loop">
+      <created>1677754991497</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677754991497</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,31 +200,14 @@
     <MESSAGE value="Operators" />
     <MESSAGE value="ControlFlowStatements" />
     <MESSAGE value="switch statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch statement" />
+    <MESSAGE value="for loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="for loop" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/ForLoopDemo.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/ForLoopDemo.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/ForLoopDemo.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="no" />
+        <watch expression="i" />
       </configuration>
     </watches-manager>
   </component>
