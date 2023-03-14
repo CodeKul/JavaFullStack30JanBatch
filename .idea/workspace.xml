@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="for loop">
-      <change afterPath="$PROJECT_DIR$/src/assignment/StarPattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/NestedForLoopDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/StarPtn1.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Nested for loop">
+      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/AdditionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/DoWhileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/PowerNoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/WhileDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,9 +59,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StarPtn1">
-    <configuration name="ForLoopDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.ForLoopDemo" />
+  <component name="RunManager" selected="Application.AdditionDemo">
+    <configuration name="AdditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.AdditionDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +73,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedForLoopDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.NestedForLoopDemo" />
+    <configuration name="DoWhileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.DoWhileDemo" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="common.controlflowstatements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerNoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.PowerNoDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -98,21 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.SwitchDemo" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="common.controlflowstatements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TableNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.TableNo" />
+    <configuration name="WhileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.WhileDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -125,19 +126,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NestedForLoopDemo" />
+      <item itemvalue="Application.AdditionDemo" />
+      <item itemvalue="Application.DoWhileDemo" />
+      <item itemvalue="Application.PowerNoDemo" />
+      <item itemvalue="Application.WhileDemo" />
       <item itemvalue="Application.StarPtn1" />
-      <item itemvalue="Application.ForLoopDemo" />
-      <item itemvalue="Application.TableNo" />
-      <item itemvalue="Application.SwitchDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdditionDemo" />
+        <item itemvalue="Application.DoWhileDemo" />
+        <item itemvalue="Application.PowerNoDemo" />
+        <item itemvalue="Application.WhileDemo" />
         <item itemvalue="Application.StarPtn1" />
-        <item itemvalue="Application.NestedForLoopDemo" />
-        <item itemvalue="Application.TableNo" />
-        <item itemvalue="Application.ForLoopDemo" />
-        <item itemvalue="Application.SwitchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677754991497</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Nested for loop">
+      <created>1678705556223</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678705556223</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,9 +209,39 @@
     <MESSAGE value="ControlFlowStatements" />
     <MESSAGE value="switch statement" />
     <MESSAGE value="for loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="for loop" />
+    <MESSAGE value="Nested for loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nested for loop" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/PowerNoDemo.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/PowerNoDemo.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/PowerNoDemo.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/PowerNoDemo.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/PowerNoDemo.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="no" />
