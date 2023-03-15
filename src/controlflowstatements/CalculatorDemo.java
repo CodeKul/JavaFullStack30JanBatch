@@ -1,8 +1,8 @@
-package common.controlflowstatements;
+package controlflowstatements;
 
 import java.util.Scanner;
 
-public class AdditionDemo {
+public class CalculatorDemo {
     public static void main(String[] args) {
         int ch;
         do {

@@ -4,12 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Nested for loop">
-      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/AdditionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/DoWhileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/PowerNoDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/controlflowstatements/WhileDemo.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="while loop,do---while loop">
+      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/BreakDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/ContinueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/EnhancedForLoopDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/NestedForLoopBreakDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/NestedForLoopContinueDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/controlflowstatements/AdditionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlflowstatements/CalculatorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/controlflowstatements/ControlFlowStatements" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlflowstatements/ControlFlowStatements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/controlflowstatements/DoWhileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlflowstatements/DoWhileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/controlflowstatements/ForLoopDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlflowstatements/ForLoopDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/controlflowstatements/IfStatementDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlflowstatements/IfStatementDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/controlflowstatements/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlflowstatements/MinMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/controlflowstatements/NestedForLoopDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlflowstatements/NestedForLoopDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/controlflowstatements/PowerNoDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlflowstatements/PowerNoDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/controlflowstatements/StarPtn1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlflowstatements/StarPtn1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/controlflowstatements/SwitchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlflowstatements/SwitchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/controlflowstatements/TableNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlflowstatements/TableNo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/controlflowstatements/WhileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlflowstatements/WhileDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +72,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdditionDemo">
-    <configuration name="AdditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.AdditionDemo" />
+  <component name="RunManager" selected="Application.EnhancedForLoopDemo">
+    <configuration name="BreakDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controlflowstatements.BreakDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common.controlflowstatements.*" />
+          <option name="PATTERN" value="controlflowstatements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoWhileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.DoWhileDemo" />
+    <configuration name="ContinueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controlflowstatements.ContinueDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common.controlflowstatements.*" />
+          <option name="PATTERN" value="controlflowstatements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerNoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.PowerNoDemo" />
+    <configuration name="EnhancedForLoopDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controlflowstatements.EnhancedForLoopDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common.controlflowstatements.*" />
+          <option name="PATTERN" value="controlflowstatements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StarPtn1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.StarPtn1" />
+    <configuration name="NestedForLoopBreakDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controlflowstatements.NestedForLoopBreakDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common.controlflowstatements.*" />
+          <option name="PATTERN" value="controlflowstatements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common.controlflowstatements.WhileDemo" />
+    <configuration name="NestedForLoopContinueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controlflowstatements.NestedForLoopContinueDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common.controlflowstatements.*" />
+          <option name="PATTERN" value="controlflowstatements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,19 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AdditionDemo" />
-      <item itemvalue="Application.DoWhileDemo" />
-      <item itemvalue="Application.PowerNoDemo" />
-      <item itemvalue="Application.WhileDemo" />
-      <item itemvalue="Application.StarPtn1" />
+      <item itemvalue="Application.BreakDemo" />
+      <item itemvalue="Application.ContinueDemo" />
+      <item itemvalue="Application.EnhancedForLoopDemo" />
+      <item itemvalue="Application.NestedForLoopBreakDemo" />
+      <item itemvalue="Application.NestedForLoopContinueDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AdditionDemo" />
-        <item itemvalue="Application.DoWhileDemo" />
-        <item itemvalue="Application.PowerNoDemo" />
-        <item itemvalue="Application.WhileDemo" />
-        <item itemvalue="Application.StarPtn1" />
+        <item itemvalue="Application.EnhancedForLoopDemo" />
+        <item itemvalue="Application.NestedForLoopBreakDemo" />
+        <item itemvalue="Application.NestedForLoopContinueDemo" />
+        <item itemvalue="Application.ContinueDemo" />
+        <item itemvalue="Application.BreakDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678705556223</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="while loop,do---while loop">
+      <created>1678792375180</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678792375180</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -210,35 +230,86 @@
     <MESSAGE value="switch statement" />
     <MESSAGE value="for loop" />
     <MESSAGE value="Nested for loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nested for loop" />
+    <MESSAGE value="while loop,do---while loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="while loop,do---while loop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/PowerNoDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/PowerNoDemo.java</url>
           <line>11</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/PowerNoDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/PowerNoDemo.java</url>
           <line>12</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/PowerNoDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/PowerNoDemo.java</url>
           <line>13</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/PowerNoDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/PowerNoDemo.java</url>
           <line>14</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common/controlflowstatements/PowerNoDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/PowerNoDemo.java</url>
           <line>16</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/BreakDemo.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/BreakDemo.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/BreakDemo.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/BreakDemo.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/BreakDemo.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/ContinueDemo.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/ContinueDemo.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/ContinueDemo.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/ContinueDemo.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/ContinueDemo.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

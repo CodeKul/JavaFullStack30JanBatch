@@ -1,4 +1,4 @@
-package common.controlflowstatements;
+package controlflowstatements;
 
 public class NestedForLoopDemo {
     public static void main(String[] args) {
