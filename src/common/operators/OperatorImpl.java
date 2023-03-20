@@ -22,7 +22,7 @@ public class OperatorImpl
         System.out.println(11-5); //6
         System.out.println(5*6); //30
         System.out.println(10/2); //5
-        System.out.println(10%3); //0
+        System.out.println(10%3); //1
 
         //Shift Operators
         int x = 10 ,y=20;
