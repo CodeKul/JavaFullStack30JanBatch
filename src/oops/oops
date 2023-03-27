@@ -5,14 +5,19 @@ Object :
 - real world entity
 - eg. chair,table,laptop,computer,bike,car,birds,Pen etc
 - entity has states & behaviours
+	State : represents data of an object
+	Behaviour : represents the functionality of an object
 - instance of a class
 - can logical & physical
 - can takes up some space
+- runtime entity
+
 
 Class :
 - collection of objects
 - logical entity
 - does not consumes memory
+- a template or blueprint from which objects are created
 
 Inheritance :
 - when one object acquires all the properties and behaviours of a parent object
@@ -29,5 +34,7 @@ Encapsulation :
 - binding or wrapping code & data together into a single unit
 
 
-
+New keyword :
+	- to allocate memory at runtime
+	-
 
