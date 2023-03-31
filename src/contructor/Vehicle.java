@@ -8,12 +8,12 @@ public class Vehicle {
     Vehicle(){ //Default constructor
         System.out.println("in Default Vehicle object is created");
     }
-    Vehicle(int id,String name){
+    Vehicle(int id,String name){//Parametrised constructor
         vehicleId = id;
         vehicleName = name;
     }
 
-    Vehicle(int id,String name,boolean car){
+    Vehicle(int id,String name,boolean car){//Parametrised constructor
         vehicleId = id;
         vehicleName = name;
         isCar = car;
