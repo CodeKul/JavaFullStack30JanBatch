@@ -16,3 +16,7 @@ syntax -
 	}
 
 	class B extends A
+
+Note:
+
+Multiple Inheritance is not supported in Java thro' class

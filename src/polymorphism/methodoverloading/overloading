@@ -1,0 +1,6 @@
+- a class have multiple methods with same name but with different number,sequence or type of parameters/arguments
+
+3 ways to overload the method:
+1. Number of parameters
+2. Data type of parameters
+3. sequence of parameters
