@@ -1,0 +1,4 @@
+- if child class has the same method as declared in parent class
+- runtime polymorphism
+- same name as declared in parent class with same parameters
+- "is-a" relationship
