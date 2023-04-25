@@ -21,10 +21,10 @@ class HDFC extends Bank{
 }
 class BankImpl{
     public static void main(String[] args) {
-        SBI sbi = new SBI();
-        System.out.println("SBI RI "+sbi.getInterestRate());
+        Bank bank1 = new SBI();
+        System.out.println("SBI RI "+bank1.getInterestRate());
 
-        HDFC hdfc = new HDFC();
-        System.out.println("HDFC RI "+hdfc.getInterestRate());
+        Bank bank2 = new HDFC();
+        System.out.println("HDFC RI "+bank2.getInterestRate());
     }
 }
