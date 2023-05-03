@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="final keyword">
-      <change afterPath="$PROJECT_DIR$/src/statickeyword/CounterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statickeyword/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statickeyword/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statickeyword/static" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="static keyword">
+      <change afterPath="$PROJECT_DIR$/src/abstraction/Abstraction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/statickeyword/StaticBlockDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/statickeyword/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/statickeyword/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/statickeyword/static" beforeDir="false" afterPath="$PROJECT_DIR$/src/statickeyword/static" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/statickeyword",
+    "last_opened_file_path": "/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/abstraction",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -48,11 +48,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/abstraction" />
       <recent name="$PROJECT_DIR$/src/statickeyword" />
       <recent name="$PROJECT_DIR$/src/finalkeyword" />
       <recent name="$PROJECT_DIR$/src/superkeyword" />
       <recent name="$PROJECT_DIR$/src/polymorphism" />
-      <recent name="$PROJECT_DIR$/src/inheritance" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/common" />
@@ -62,7 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.statickeyword.EmployeeImpl">
+  <component name="RunManager" selected="Application.StaticBlockDemo">
     <configuration name="CounterDemoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="statickeyword.CounterDemoImpl" />
       <module name="JavaFullStack30JanBatch" />
@@ -89,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="statickeyword.StudentImpl" />
+    <configuration name="StaticBlockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="statickeyword.StaticBlockDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="superkeyword.TestImpl" />
+    <configuration name="StudentImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="statickeyword.StudentImpl" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="superkeyword.*" />
+          <option name="PATTERN" value="statickeyword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,19 +129,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.StaticBlockDemo" />
       <item itemvalue="Application.CounterDemoImpl" />
       <item itemvalue="Application.StudentImpl" />
       <item itemvalue="Application.statickeyword.EmployeeImpl" />
       <item itemvalue="Application.EmployeeImpl" />
-      <item itemvalue="Application.TestImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticBlockDemo" />
         <item itemvalue="Application.statickeyword.EmployeeImpl" />
         <item itemvalue="Application.StudentImpl" />
         <item itemvalue="Application.CounterDemoImpl" />
         <item itemvalue="Application.EmployeeImpl" />
-        <item itemvalue="Application.TestImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682680978072</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="static keyword">
+      <created>1683027170005</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1683027170005</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,7 +365,8 @@
     <MESSAGE value="polymorphism" />
     <MESSAGE value="super keyword" />
     <MESSAGE value="final keyword" />
-    <option name="LAST_COMMIT_MESSAGE" value="final keyword" />
+    <MESSAGE value="static keyword" />
+    <option name="LAST_COMMIT_MESSAGE" value="static keyword" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

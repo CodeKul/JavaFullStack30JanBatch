@@ -11,13 +11,13 @@ public class Employee {
         System.out.println("id "+id +" Name "+name );
 
     }
-    static void show(){
+     static void show(){
         System.out.println(" School Name "+companyName);
     }
 }
 class EmployeeImpl{
     public static void main(String[] args) {
-        Employee e1 = new Employee(1,"Dharmesh");
+       // Employee e1 = new Employee(1,"Dharmesh");
         Employee.show();
 
     }

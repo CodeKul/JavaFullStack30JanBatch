@@ -19,7 +19,8 @@
 
 Homework:
 1. Can we execute a program without main()?
-- No.
+- No.it was possible till JDK 1.6 using static block, Since JDK 1.7,it is not possible to execute a Java class without main method,
+
 
 2. class Car{
 	String carName;
