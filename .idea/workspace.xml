@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="static keyword">
-      <change afterPath="$PROJECT_DIR$/src/abstraction/Abstraction" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statickeyword/StaticBlockDemo.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Abstraction introduction">
+      <change afterPath="$PROJECT_DIR$/src/abstraction/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstraction/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/statickeyword/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/statickeyword/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/statickeyword/static" beforeDir="false" afterPath="$PROJECT_DIR$/src/statickeyword/static" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/abstraction",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/abstraction&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/abstraction" />
@@ -62,26 +60,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StaticBlockDemo">
-    <configuration name="CounterDemoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="statickeyword.CounterDemoImpl" />
+  <component name="RunManager" selected="Application.ShapeImpl">
+    <configuration name="ShapeImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstraction.ShapeImpl" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="statickeyword.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="superkeyword.EmployeeImpl" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="superkeyword.*" />
+          <option name="PATTERN" value="abstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,6 +100,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VehicleImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstraction.VehicleImpl" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="statickeyword.EmployeeImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="statickeyword.EmployeeImpl" />
       <module name="JavaFullStack30JanBatch" />
@@ -129,19 +127,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ShapeImpl" />
+      <item itemvalue="Application.VehicleImpl" />
       <item itemvalue="Application.StaticBlockDemo" />
-      <item itemvalue="Application.CounterDemoImpl" />
       <item itemvalue="Application.StudentImpl" />
       <item itemvalue="Application.statickeyword.EmployeeImpl" />
-      <item itemvalue="Application.EmployeeImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShapeImpl" />
+        <item itemvalue="Application.VehicleImpl" />
         <item itemvalue="Application.StaticBlockDemo" />
         <item itemvalue="Application.statickeyword.EmployeeImpl" />
         <item itemvalue="Application.StudentImpl" />
-        <item itemvalue="Application.CounterDemoImpl" />
-        <item itemvalue="Application.EmployeeImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683027170005</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Abstraction introduction">
+      <created>1683114360793</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1683114360793</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,7 +371,8 @@
     <MESSAGE value="super keyword" />
     <MESSAGE value="final keyword" />
     <MESSAGE value="static keyword" />
-    <option name="LAST_COMMIT_MESSAGE" value="static keyword" />
+    <MESSAGE value="Abstraction introduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstraction introduction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
