@@ -1,7 +1,7 @@
-package interface_block;
+package interfacedemo;
 
 public interface Showable {
-    void show();
+   void show();
 }
 class TestInterface implements Showable{
     @Override

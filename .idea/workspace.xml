@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Abstraction introduction">
-      <change afterPath="$PROJECT_DIR$/src/interface_block/Showable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface_block/interface" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="interface introduction">
+      <change afterPath="$PROJECT_DIR$/src/interfacedemo/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfacedemo/Parking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface_block/Showable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacedemo/Showable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface_block/interface" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacedemo/interface" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,33 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShowableImpl">
+  <component name="RunManager" selected="Application.ParkingImpl">
+    <configuration name="AreaImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfacedemo.AreaImpl" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfacedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfacedemo.ParkingImpl" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfacedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShapeImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstraction.ShapeImpl" />
       <module name="JavaFullStack30JanBatch" />
@@ -77,24 +104,11 @@
       </method>
     </configuration>
     <configuration name="ShowableImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interface_block.ShowableImpl" />
+      <option name="MAIN_CLASS_NAME" value="interfacedemo.ShowableImpl" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interface_block.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticBlockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="statickeyword.StaticBlockDemo" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="statickeyword.*" />
+          <option name="PATTERN" value="interfacedemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,33 +129,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="statickeyword.EmployeeImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="statickeyword.EmployeeImpl" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="statickeyword.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.AreaImpl" />
+      <item itemvalue="Application.ParkingImpl" />
       <item itemvalue="Application.ShowableImpl" />
       <item itemvalue="Application.ShapeImpl" />
       <item itemvalue="Application.VehicleImpl" />
-      <item itemvalue="Application.StaticBlockDemo" />
-      <item itemvalue="Application.statickeyword.EmployeeImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParkingImpl" />
+        <item itemvalue="Application.AreaImpl" />
         <item itemvalue="Application.ShowableImpl" />
         <item itemvalue="Application.ShapeImpl" />
         <item itemvalue="Application.VehicleImpl" />
-        <item itemvalue="Application.StaticBlockDemo" />
-        <item itemvalue="Application.statickeyword.EmployeeImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683286466846</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="interface introduction">
+      <created>1683625459830</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1683625459830</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,7 +389,8 @@
     <MESSAGE value="final keyword" />
     <MESSAGE value="static keyword" />
     <MESSAGE value="Abstraction introduction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstraction introduction" />
+    <MESSAGE value="interface introduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface introduction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -591,6 +600,15 @@
           <line>3</line>
           <properties field="n" class="statickeyword.CounterDemo" />
           <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/interfacedemo/Parking.java</url>
+          <line>18</line>
+          <properties class="interfacedemo.ParkingImpl" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
