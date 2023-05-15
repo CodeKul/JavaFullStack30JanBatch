@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="marker interface">
-      <change afterPath="$PROJECT_DIR$/src/mypackage/PackageImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mypackage/p1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mypackage/p1/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mypackage/p2/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mypackage/p2/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mypackage/package" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="packages">
+      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/TestPrivate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/accessmodifiers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/pack1/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/pack1/AImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/pack2/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/pack3/P1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/pack3/PImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/pack4/B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,17 +40,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/mypackage",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/mypackage&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/mypackage" />
@@ -61,6 +63,7 @@
       <recent name="$PROJECT_DIR$/src/common" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="accessmodifiers.pack2" />
       <recent name="common" />
       <recent name="" />
     </key>
@@ -360,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683798284072</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="packages">
+      <created>1683883443734</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1683883443734</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,7 +385,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Variables" />
     <MESSAGE value="Operators" />
     <MESSAGE value="ControlFlowStatements" />
     <MESSAGE value="switch statement" />
@@ -400,7 +409,8 @@
     <MESSAGE value="Abstraction introduction" />
     <MESSAGE value="interface introduction" />
     <MESSAGE value="marker interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="marker interface" />
+    <MESSAGE value="packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="packages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
