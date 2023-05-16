@@ -1,7 +1,7 @@
 package accessmodifiers.pack3;
 
 public class P1 {
-   protected    void getMsg(){
+   protected  void getMsg(){
         System.out.println("P1---Gate msg");
     }
 

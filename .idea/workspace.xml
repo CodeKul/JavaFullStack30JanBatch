@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="packages">
-      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/TestPrivate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/accessmodifiers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/pack1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/pack1/AImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/pack2/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/pack3/P1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/pack3/PImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accessmodifiers/pack4/B.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="accessmodifiers">
+      <change afterPath="$PROJECT_DIR$/src/encapsulation/Encapsulation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/encapsulation/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/accessmodifiers/pack3/P1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/accessmodifiers/pack3/P1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,24 +35,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/mypackage&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/encapsulation",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/encapsulation" />
       <recent name="$PROJECT_DIR$/src/mypackage" />
       <recent name="$PROJECT_DIR$/src/interface_block" />
       <recent name="$PROJECT_DIR$/src/abstraction" />
       <recent name="$PROJECT_DIR$/src/statickeyword" />
-      <recent name="$PROJECT_DIR$/src/finalkeyword" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/common" />
@@ -68,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PackageImpl">
+  <component name="RunManager" selected="Application.PersonImpl">
     <configuration name="AreaImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interfacedemo.AreaImpl" />
       <module name="JavaFullStack30JanBatch" />
@@ -108,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstraction.ShapeImpl" />
+    <configuration name="PersonImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="encapsulation.PersonImpl" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstraction.*" />
+          <option name="PATTERN" value="encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,19 +130,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.PersonImpl" />
       <item itemvalue="Application.PackageImpl" />
       <item itemvalue="Application.AreaImpl" />
       <item itemvalue="Application.ParkingImpl" />
       <item itemvalue="Application.ShowableImpl" />
-      <item itemvalue="Application.ShapeImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonImpl" />
         <item itemvalue="Application.PackageImpl" />
         <item itemvalue="Application.ParkingImpl" />
         <item itemvalue="Application.AreaImpl" />
         <item itemvalue="Application.ShowableImpl" />
-        <item itemvalue="Application.ShapeImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683883443734</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="accessmodifiers">
+      <created>1684143377935</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1684143377935</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +387,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Operators" />
     <MESSAGE value="ControlFlowStatements" />
     <MESSAGE value="switch statement" />
     <MESSAGE value="for loop" />
@@ -410,7 +411,8 @@
     <MESSAGE value="interface introduction" />
     <MESSAGE value="marker interface" />
     <MESSAGE value="packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="packages" />
+    <MESSAGE value="accessmodifiers" />
+    <option name="LAST_COMMIT_MESSAGE" value="accessmodifiers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
