@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Arrays">
-      <change afterPath="$PROJECT_DIR$/src/arrays/Array2DDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/Add2DMatrixDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/JaggedArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment/arrays" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/ArraysDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/ArraysDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Array2DDemo">
+  <component name="RunManager" selected="Application.Add2DMatrixDemo">
+    <configuration name="Add2DMatrixDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Add2DMatrixDemo" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Array2DDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.Array2DDemo" />
       <module name="JavaFullStack30JanBatch" />
@@ -90,25 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackageImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mypackage.PackageImpl" />
+    <configuration name="JaggedArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.JaggedArrayDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mypackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="encapsulation.PersonImpl" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="encapsulation.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,19 +130,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Add2DMatrixDemo" />
+      <item itemvalue="Application.JaggedArrayDemo" />
       <item itemvalue="Application.Array2DDemo" />
       <item itemvalue="Application.ReverseArray" />
       <item itemvalue="Application.ArraysDemo" />
-      <item itemvalue="Application.PersonImpl" />
-      <item itemvalue="Application.PackageImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Add2DMatrixDemo" />
+        <item itemvalue="Application.JaggedArrayDemo" />
         <item itemvalue="Application.Array2DDemo" />
         <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.ArraysDemo" />
-        <item itemvalue="Application.PersonImpl" />
-        <item itemvalue="Application.PackageImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684316336285</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Arrays">
+      <created>1684488952243</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1684488952243</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -636,15 +643,6 @@
           <line>3</line>
           <properties field="n" class="statickeyword.CounterDemo" />
           <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/arrays/Array2DDemo.java</url>
-          <line>3</line>
-          <properties class="arrays.Array2DDemo" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="68" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
