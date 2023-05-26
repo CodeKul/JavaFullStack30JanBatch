@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Arrays">
-      <change afterPath="$PROJECT_DIR$/src/arrays/Add2DMatrixDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/JaggedArrayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment/arrays" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="jagged array">
+      <change afterPath="$PROJECT_DIR$/src/arrays/MatrixMultiplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Add2DMatrixDemo">
+  <component name="RunManager" selected="Application.MatrixMultiplication">
     <configuration name="Add2DMatrixDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.Add2DMatrixDemo" />
       <module name="JavaFullStack30JanBatch" />
@@ -90,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ArraysDemo" />
+    <configuration name="JaggedArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.JaggedArrayDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JaggedArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.JaggedArrayDemo" />
+    <configuration name="MatrixMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MatrixMultiplication" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -130,19 +128,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MatrixMultiplication" />
       <item itemvalue="Application.Add2DMatrixDemo" />
       <item itemvalue="Application.JaggedArrayDemo" />
       <item itemvalue="Application.Array2DDemo" />
       <item itemvalue="Application.ReverseArray" />
-      <item itemvalue="Application.ArraysDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixMultiplication" />
         <item itemvalue="Application.Add2DMatrixDemo" />
         <item itemvalue="Application.JaggedArrayDemo" />
         <item itemvalue="Application.Array2DDemo" />
         <item itemvalue="Application.ReverseArray" />
-        <item itemvalue="Application.ArraysDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684488952243</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="jagged array">
+      <created>1684921492251</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1684921492251</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="for loop" />
     <MESSAGE value="Nested for loop" />
     <MESSAGE value="while loop,do---while loop" />
     <MESSAGE value="break,  enhanced for loop,brak" />
@@ -433,7 +437,8 @@
     <MESSAGE value="accessmodifiers" />
     <MESSAGE value="Encapsulation" />
     <MESSAGE value="Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays" />
+    <MESSAGE value="jagged array" />
+    <option name="LAST_COMMIT_MESSAGE" value="jagged array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
