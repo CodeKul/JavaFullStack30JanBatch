@@ -12,5 +12,10 @@ public class StringMethodsDemo {
        for (String s :strArray)
         System.out.println(s);
 
+       if (str1.startsWith("H"))
+           System.out.println("HII");
+       else
+           System.out.println("Byee");
+
     }
 }

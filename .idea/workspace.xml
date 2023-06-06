@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="substring,split method">
-      <change afterPath="$PROJECT_DIR$/src/strings/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/StringBufferDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/StringBuilderDemo.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="StringBuffer,StringBuilder">
+      <change afterPath="$PROJECT_DIR$/src/strings/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +62,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmployeeImpl">
+  <component name="RunManager" selected="Application.StringMethodsDemo">
     <configuration name="EmployeeImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.EmployeeImpl" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.PersonImpl" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -103,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCompareDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.StringCompareDemo" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringMethodsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.StringMethodsDemo" />
       <module name="JavaFullStack30JanBatch" />
@@ -130,19 +129,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.PersonImpl" />
       <item itemvalue="Application.EmployeeImpl" />
       <item itemvalue="Application.StringBufferDemo" />
       <item itemvalue="Application.StringBuilderDemo" />
-      <item itemvalue="Application.StringCompareDemo" />
       <item itemvalue="Application.StringMethodsDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringMethodsDemo" />
+        <item itemvalue="Application.PersonImpl" />
         <item itemvalue="Application.EmployeeImpl" />
         <item itemvalue="Application.StringBufferDemo" />
         <item itemvalue="Application.StringBuilderDemo" />
-        <item itemvalue="Application.StringMethodsDemo" />
-        <item itemvalue="Application.StringCompareDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685531770715</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="StringBuffer,StringBuilder">
+      <created>1685618366892</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1685618366892</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,7 +442,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="break,  enhanced for loop,breakcontinue" />
     <MESSAGE value="Prime no,Even Odd,Swap no" />
     <MESSAGE value="OOPS introduction" />
     <MESSAGE value="Java Interview questions" />
@@ -461,7 +466,8 @@
     <MESSAGE value="multiplication" />
     <MESSAGE value="string class immutable" />
     <MESSAGE value="substring,split method" />
-    <option name="LAST_COMMIT_MESSAGE" value="substring,split method" />
+    <MESSAGE value="StringBuffer,StringBuilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringBuffer,StringBuilder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
