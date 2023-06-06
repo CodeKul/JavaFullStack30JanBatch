@@ -16,6 +16,6 @@ public class StringMethodsDemo {
            System.out.println("HII");
        else
            System.out.println("Byee");
-
+        System.out.println(str1.indexOf("H"));
     }
 }

@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="StringBuffer,StringBuilder">
-      <change afterPath="$PROJECT_DIR$/src/strings/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/Employee.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Immutable class">
+      <change beforePath="$PROJECT_DIR$/src/strings/StringMethodsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/StringMethodsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -427,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685618366892</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Immutable class">
+      <created>1686048513949</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1686048513949</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -442,7 +447,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Prime no,Even Odd,Swap no" />
     <MESSAGE value="OOPS introduction" />
     <MESSAGE value="Java Interview questions" />
     <MESSAGE value="objects &amp; classes" />
@@ -467,7 +471,8 @@
     <MESSAGE value="string class immutable" />
     <MESSAGE value="substring,split method" />
     <MESSAGE value="StringBuffer,StringBuilder" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringBuffer,StringBuilder" />
+    <MESSAGE value="Immutable class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Immutable class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
