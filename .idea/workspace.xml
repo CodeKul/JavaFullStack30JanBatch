@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Exception">
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/MultipleCatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/NestedTryDemo.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Exception handling">
+      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/CheckedExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/FinallyDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/FinallyDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptionexception/ArrayIndexDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptionhandling/ArrayIndexDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptionexception/ExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptionhandling/ExceptionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptionexception/NullPointerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptionhandling/NullPointerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptionexception/exceptionhandling" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptionhandling/exceptionhandling" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +63,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NestedTryDemo">
-    <configuration name="ArrayIndexDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.ArrayIndexDemo" />
+  <component name="RunManager" selected="Application.FinallyDemo2">
+    <configuration name="CheckedExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionhandling.CheckedExceptionDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +77,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.ExceptionDemo" />
+    <configuration name="FinallyDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionhandling.FinallyDemo1" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptionhandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinallyDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionhandling.FinallyDemo2" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -119,33 +129,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullPointerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.NullPointerDemo" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptionhandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.CheckedExceptionDemo" />
+      <item itemvalue="Application.FinallyDemo1" />
+      <item itemvalue="Application.FinallyDemo2" />
       <item itemvalue="Application.MultipleCatchDemo" />
       <item itemvalue="Application.NestedTryDemo" />
-      <item itemvalue="Application.ArrayIndexDemo" />
-      <item itemvalue="Application.ExceptionDemo" />
-      <item itemvalue="Application.NullPointerDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FinallyDemo2" />
+        <item itemvalue="Application.FinallyDemo1" />
+        <item itemvalue="Application.CheckedExceptionDemo" />
         <item itemvalue="Application.NestedTryDemo" />
         <item itemvalue="Application.MultipleCatchDemo" />
-        <item itemvalue="Application.ArrayIndexDemo" />
-        <item itemvalue="Application.NullPointerDemo" />
-        <item itemvalue="Application.ExceptionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -452,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686135544043</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Exception handling">
+      <created>1686308440107</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1686308440107</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -467,7 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Java Interview questions" />
     <MESSAGE value="objects &amp; classes" />
     <MESSAGE value="Methods" />
     <MESSAGE value="Constructor" />
@@ -492,7 +495,8 @@
     <MESSAGE value="StringBuffer,StringBuilder" />
     <MESSAGE value="Immutable class" />
     <MESSAGE value="Exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception" />
+    <MESSAGE value="Exception handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
