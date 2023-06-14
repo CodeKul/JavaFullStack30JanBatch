@@ -8,5 +8,6 @@ public class FinallyDemo2 {
         }finally {
             System.out.println("in finally");
         }
+        System.out.println("Remaining code");
     }
 }
