@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="finally block">
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/CheckedThrowDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/VaccineAgeCriteriaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/VaccineCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/VotingSystem.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="throw keyword,custom exception">
+      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/ThrowsDemo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptionhandling/FinallyDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptionhandling/FinallyDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptionhandling/exceptionhandling" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptionhandling/exceptionhandling" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VaccineCriteria">
+  <component name="RunManager" selected="Application.ThrowsDemo1">
     <configuration name="CheckedThrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptionhandling.CheckedThrowDemo" />
       <module name="JavaFullStack30JanBatch" />
@@ -79,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinallyDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.FinallyDemo1" />
+    <configuration name="ExceptionPropagationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionhandling.ExceptionPropagationDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinallyDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.FinallyDemo2" />
+    <configuration name="ThrowsDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionhandling.ThrowsDemo1" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -132,19 +130,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ExceptionPropagationDemo" />
+      <item itemvalue="Application.ThrowsDemo1" />
       <item itemvalue="Application.CheckedThrowDemo" />
       <item itemvalue="Application.VaccineCriteria" />
       <item itemvalue="Application.VotingSystem" />
-      <item itemvalue="Application.FinallyDemo1" />
-      <item itemvalue="Application.FinallyDemo2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThrowsDemo1" />
+        <item itemvalue="Application.ExceptionPropagationDemo" />
         <item itemvalue="Application.VaccineCriteria" />
         <item itemvalue="Application.CheckedThrowDemo" />
         <item itemvalue="Application.VotingSystem" />
-        <item itemvalue="Application.FinallyDemo2" />
-        <item itemvalue="Application.FinallyDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686566708716</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="throw keyword,custom exception">
+      <created>1686743720858</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1686743720858</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,7 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Methods" />
     <MESSAGE value="Constructor" />
     <MESSAGE value="this keyword" />
     <MESSAGE value="inheritance" />
@@ -505,7 +509,8 @@
     <MESSAGE value="Exception" />
     <MESSAGE value="Exception handling" />
     <MESSAGE value="finally block" />
-    <option name="LAST_COMMIT_MESSAGE" value="finally block" />
+    <MESSAGE value="throw keyword,custom exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="throw keyword,custom exception" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -840,11 +845,45 @@
           <line>11</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagationDemo.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagationDemo.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagationDemo.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagationDemo.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagationDemo.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/statickeyword/CounterDemo.java</url>
           <line>3</line>
           <properties field="n" class="statickeyword.CounterDemo" />
           <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ThrowsDemo1.java</url>
+          <line>22</line>
+          <properties class="exceptionhandling.ThrowsDemo1" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="102" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
