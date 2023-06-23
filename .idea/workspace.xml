@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="throw keyword,custom exception">
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/ThrowsDemo1.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="throws keyword,Exp propagation">
+      <change afterPath="$PROJECT_DIR$/src/jdbc/SqlDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/jdbc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/mysql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptionhandling/exceptionhandling" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptionhandling/exceptionhandling" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,24 +36,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/exceptionexception&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/madhuri/Downloads/mysql-connector-java-8.0.30.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/jdbc" />
       <recent name="$PROJECT_DIR$/src/exceptionexception" />
       <recent name="$PROJECT_DIR$/src/assignment" />
       <recent name="$PROJECT_DIR$/src/stringdemo" />
       <recent name="$PROJECT_DIR$/src/encapsulation" />
-      <recent name="$PROJECT_DIR$/src/mypackage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/common" />
@@ -63,7 +65,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThrowsDemo1">
+  <component name="RunManager" selected="Application.SqlDemo">
     <configuration name="CheckedThrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptionhandling.CheckedThrowDemo" />
       <module name="JavaFullStack30JanBatch" />
@@ -83,6 +85,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exceptionhandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.SqlDemo" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,33 +131,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VotingSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.VotingSystem" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptionhandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.SqlDemo" />
       <item itemvalue="Application.ExceptionPropagationDemo" />
       <item itemvalue="Application.ThrowsDemo1" />
       <item itemvalue="Application.CheckedThrowDemo" />
       <item itemvalue="Application.VaccineCriteria" />
-      <item itemvalue="Application.VotingSystem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SqlDemo" />
         <item itemvalue="Application.ThrowsDemo1" />
         <item itemvalue="Application.ExceptionPropagationDemo" />
         <item itemvalue="Application.VaccineCriteria" />
         <item itemvalue="Application.CheckedThrowDemo" />
-        <item itemvalue="Application.VotingSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -470,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686743720858</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="throws keyword,Exp propagation">
+      <created>1686826489514</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1686826489514</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -485,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Constructor" />
     <MESSAGE value="this keyword" />
     <MESSAGE value="inheritance" />
     <MESSAGE value="method overloading,overriding" />
@@ -510,7 +518,8 @@
     <MESSAGE value="Exception handling" />
     <MESSAGE value="finally block" />
     <MESSAGE value="throw keyword,custom exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="throw keyword,custom exception" />
+    <MESSAGE value="throws keyword,Exp propagation" />
+    <option name="LAST_COMMIT_MESSAGE" value="throws keyword,Exp propagation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

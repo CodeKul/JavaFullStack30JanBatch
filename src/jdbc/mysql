@@ -1,0 +1,63 @@
+Database - collection of records/tables
+
+Queries:
+mysql> create table student(rno int,nm varchar(20));
+mysql>  desc student;
+
+mysql> insert into student values(1,'Aman');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into student(nm,rno) values('Kedar',2);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from student;
++------+-------+
+| rno  | nm    |
++------+-------+
+|    1 | Aman  |
+|    2 | Kedar |
++------+-------+
+2 rows in set (0.00 sec)
+
+mysql> update student set nm = 'Kedar Naik' where rno = 2;
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from student;
++------+------------+
+| rno  | nm         |
++------+------------+
+|    1 | Aman       |
+|    2 | Kedar Naik |
++------+------------+
+2 rows in set (0.00 sec)
+
+mysql> select * from student where rno = 1;
++------+------+
+| rno  | nm   |
++------+------+
+|    1 | Aman |
++------+------+
+1 row in set (0.00 sec)
+mysql> select * from student where nm = 'Aman';
++------+------+
+| rno  | nm   |
++------+------+
+|    1 | Aman |
++------+------+
+1 row in set (0.00 sec)
+
+mysql> delete from student where rno = 3;
+Query OK, 1 row affected (0.01 sec)
+
+
+mysql> insert into student values(4,'test1');
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+mysql> insert into student(rno,nm) values(4,'test1');
+ERROR 1364 (HY000): Field 'age' doesn't have a default value
+
+mysql> insert into student(rno,nm,age) values(4,'test1',5);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into student values(5,'test2',15);
+Query OK, 1 row affected (0.01 sec)
