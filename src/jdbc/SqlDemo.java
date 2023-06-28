@@ -8,6 +8,7 @@ public class SqlDemo {
         String url ="jdbc:mysql://localhost:3306/Java30Jan";
         String username="root";
         String password="Codekul@123";
+
        Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con =DriverManager.getConnection(url,username,password);
         Statement st = con.createStatement();

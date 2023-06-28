@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="MySql">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_30.xml" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Jdbc">
+      <change afterPath="$PROJECT_DIR$/src/jdbc/SqlDeleteDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/SqlInsertDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/SqlUpdateDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaFullStack30JanBatch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFullStack30JanBatch.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jdbc/SqlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/SqlDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +28,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-1.8.0_322/src.zip!/java/sql/ResultSet.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.30.jar!/com/mysql/jdbc/Driver.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -67,26 +69,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SqlDemo">
-    <configuration name="CheckedThrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.CheckedThrowDemo" />
+  <component name="RunManager" selected="Application.SqlDeleteDemo">
+    <configuration name="SqlDeleteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.SqlDeleteDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptionhandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExceptionPropagationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.ExceptionPropagationDemo" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptionhandling.*" />
+          <option name="PATTERN" value="jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,6 +85,32 @@
     </configuration>
     <configuration name="SqlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc.SqlDemo" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqlInsertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.SqlInsertDemo" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqlUpdateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.SqlUpdateDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -120,33 +135,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VaccineCriteria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.VaccineCriteria" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptionhandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.SqlDeleteDemo" />
+      <item itemvalue="Application.SqlInsertDemo" />
+      <item itemvalue="Application.SqlUpdateDemo" />
       <item itemvalue="Application.SqlDemo" />
-      <item itemvalue="Application.ExceptionPropagationDemo" />
       <item itemvalue="Application.ThrowsDemo1" />
-      <item itemvalue="Application.CheckedThrowDemo" />
-      <item itemvalue="Application.VaccineCriteria" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SqlDeleteDemo" />
+        <item itemvalue="Application.SqlUpdateDemo" />
+        <item itemvalue="Application.SqlInsertDemo" />
         <item itemvalue="Application.SqlDemo" />
         <item itemvalue="Application.ThrowsDemo1" />
-        <item itemvalue="Application.ExceptionPropagationDemo" />
-        <item itemvalue="Application.VaccineCriteria" />
-        <item itemvalue="Application.CheckedThrowDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -489,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687518816894</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Jdbc">
+      <option name="closed" value="true" />
+      <created>1687864063522</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1687864063522</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,7 +514,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="inheritance" />
     <MESSAGE value="method overloading,overriding" />
     <MESSAGE value="polymorphism" />
     <MESSAGE value="super keyword" />
@@ -529,7 +538,8 @@
     <MESSAGE value="throw keyword,custom exception" />
     <MESSAGE value="throws keyword,Exp propagation" />
     <MESSAGE value="MySql" />
-    <option name="LAST_COMMIT_MESSAGE" value="MySql" />
+    <MESSAGE value="Jdbc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jdbc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
