@@ -61,3 +61,42 @@ Query OK, 1 row affected (0.00 sec)
 
 mysql> insert into student values(5,'test2',15);
 Query OK, 1 row affected (0.01 sec)
+
+mysql> delimiter //
+mysql> CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_addition`(
+    -> IN n1 int,IN n2 int,OUT result int)
+    -> BEGIN
+    -> set result = n1 + n2;
+    -> END;
+    -> //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> call sp_addition(15,15,@res);
+mysql> select @res;
+
+
+mysql> Delimiter //
+mysql> CREATE  PROCEDURE `sp_get_stud_name_by_rno`(
+    -> IN _rno int,out _name varchar(255))
+    -> BEGIN
+    -> select nm into _name from student where rno = _rno;
+    -> END;
+    -> //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> call sp_get_stud_name_by_rno(2,@nm);
+    -> //
+Query OK, 1 row affected (0.00 sec)
+
+
+mysql> select @nm;
+    -> //
++------------+
+| @nm        |
++------------+
+| Kedar Naik |
++------------+
+1 row in set (0.00 sec)
+
+
+
