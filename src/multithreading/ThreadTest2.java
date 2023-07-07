@@ -12,6 +12,8 @@ public class ThreadTest2 implements Runnable{
         ThreadTest2 t1 = new ThreadTest2();
         Thread thread = new Thread(t1);
         thread.start();
+
+        System.out.println("Current Thread "+Thread.currentThread());
     }
 
 }

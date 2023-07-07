@@ -10,5 +10,6 @@ public class ThreadTest extends Thread{
     public static void main(String[] args) {
         ThreadTest t1 = new ThreadTest();
         t1.start();
+        System.out.println("Current Thread "+ThreadTest.currentThread());
     }
 }
