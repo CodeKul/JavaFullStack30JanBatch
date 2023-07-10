@@ -4,13 +4,12 @@ public class ThreadJoinDemo extends Thread{
     @Override
     public void run() {
         for (int i=0;i<3;i++){
-            System.out.println("i: "+i);
-            try {
-                System.out.println("i for "+Thread.currentThread());
-                Thread.sleep(500);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
+//            try {
+                System.out.println("i "+i +" "+Thread.currentThread());
+//                Thread.sleep(300);
+//            } catch (InterruptedException e) {
+//                throw new RuntimeException(e);
+//            }
         }
     }
 }
@@ -20,17 +19,15 @@ class ThreadJoinImpl{
         ThreadJoinDemo t1 = new ThreadJoinDemo();
         ThreadJoinDemo t2 = new ThreadJoinDemo();
         t1.start();
-        try {
-            System.out.println("Current: "+Thread.currentThread());
-            t1.join();
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
         t2.start();
+        System.out.println("Current: "+Thread.currentThread());
+
         try {
+            t1.join();
             t2.join();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
     }
 }

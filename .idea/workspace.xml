@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="multithreading METHODS">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadJoinDemo.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="join method">
+      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadNamingDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/ThreadJoinDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/ThreadJoinDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +67,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadJoinImpl">
+  <component name="RunManager" selected="Application.ThreadNamingImpl">
     <configuration name="ThreadJoinImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.ThreadJoinImpl" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadNamingImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadNamingImpl" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -119,33 +133,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadTest2" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ThreadJoinImpl" />
+      <item itemvalue="Application.ThreadNamingImpl" />
       <item itemvalue="Application.ThreadRunDemo" />
       <item itemvalue="Application.ThreadSleepDemo" />
       <item itemvalue="Application.ThreadTest" />
-      <item itemvalue="Application.ThreadTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadNamingImpl" />
         <item itemvalue="Application.ThreadJoinImpl" />
         <item itemvalue="Application.ThreadRunDemo" />
         <item itemvalue="Application.ThreadSleepDemo" />
         <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.ThreadTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -480,14 +481,6 @@
       <option name="project" value="LOCAL" />
       <updated>1686826489514</updated>
     </task>
-    <task id="LOCAL-00051" summary="multithreading introduction">
-      <option name="closed" value="true" />
-      <created>1688382618691</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1688382618691</updated>
-    </task>
     <task id="LOCAL-00052" summary="multithreading introduction">
       <option name="closed" value="true" />
       <created>1688468743742</created>
@@ -504,7 +497,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688728216232</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="join method">
+      <option name="closed" value="true" />
+      <created>1688986286917</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1688986286917</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="final keyword" />
     <MESSAGE value="static keyword" />
     <MESSAGE value="Abstraction introduction" />
     <MESSAGE value="interface introduction" />
@@ -544,7 +544,8 @@
     <MESSAGE value="Jdbc procedure" />
     <MESSAGE value="multithreading introduction" />
     <MESSAGE value="multithreading METHODS" />
-    <option name="LAST_COMMIT_MESSAGE" value="multithreading METHODS" />
+    <MESSAGE value="join method" />
+    <option name="LAST_COMMIT_MESSAGE" value="join method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -913,11 +914,6 @@
           <url>file://$PROJECT_DIR$/src/multithreading/ThreadSleepDemo.java</url>
           <line>18</line>
           <option name="timeStamp" value="111" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/multithreading/ThreadJoinDemo.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/statickeyword/CounterDemo.java</url>
