@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="join method">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadNamingDemo.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="name method">
+      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadDaemonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadPriorityDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/ThreadJoinDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/ThreadJoinDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadNamingImpl">
+  <component name="RunManager" selected="Application.ThreadDaemonImpl">
+    <configuration name="ThreadDaemonImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadDaemonImpl" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadJoinImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.ThreadJoinImpl" />
       <module name="JavaFullStack30JanBatch" />
@@ -94,6 +107,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadPriorityImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadPriorityImpl" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadRunDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.ThreadRunDemo" />
       <module name="JavaFullStack30JanBatch" />
@@ -107,46 +133,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadSleepDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadSleepDemo" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadTest" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.ThreadDaemonImpl" />
+      <item itemvalue="Application.ThreadPriorityImpl" />
       <item itemvalue="Application.ThreadJoinImpl" />
       <item itemvalue="Application.ThreadNamingImpl" />
       <item itemvalue="Application.ThreadRunDemo" />
-      <item itemvalue="Application.ThreadSleepDemo" />
-      <item itemvalue="Application.ThreadTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadDaemonImpl" />
+        <item itemvalue="Application.ThreadPriorityImpl" />
         <item itemvalue="Application.ThreadNamingImpl" />
         <item itemvalue="Application.ThreadJoinImpl" />
         <item itemvalue="Application.ThreadRunDemo" />
-        <item itemvalue="Application.ThreadSleepDemo" />
-        <item itemvalue="Application.ThreadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -481,14 +481,6 @@
       <option name="project" value="LOCAL" />
       <updated>1686826489514</updated>
     </task>
-    <task id="LOCAL-00052" summary="multithreading introduction">
-      <option name="closed" value="true" />
-      <created>1688468743742</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1688468743743</updated>
-    </task>
     <task id="LOCAL-00053" summary="multithreading METHODS">
       <option name="closed" value="true" />
       <created>1688728216231</created>
@@ -505,7 +497,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688986286917</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="name method">
+      <option name="closed" value="true" />
+      <created>1688987469103</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1688987469103</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="static keyword" />
     <MESSAGE value="Abstraction introduction" />
     <MESSAGE value="interface introduction" />
     <MESSAGE value="marker interface" />
@@ -545,7 +544,8 @@
     <MESSAGE value="multithreading introduction" />
     <MESSAGE value="multithreading METHODS" />
     <MESSAGE value="join method" />
-    <option name="LAST_COMMIT_MESSAGE" value="join method" />
+    <MESSAGE value="name method" />
+    <option name="LAST_COMMIT_MESSAGE" value="name method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
