@@ -102,7 +102,8 @@ Methods:
 11. boolean isDaemon()
 
 12. void yield()
-	- to give the hint to TS a & gives chance to other thread
+	- pause the current executing thread and allow other threads to execute
+	- to give the hint to TS & gives chance to other thread
 	- current running thread give chance to other thread
 	- it causes the currently executing thread object to pause & allow other threads to
 	execute
