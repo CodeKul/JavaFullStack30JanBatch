@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="daemon thread">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadYieldDemo.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="yield method">
+      <change afterPath="$PROJECT_DIR$/src/multithreading/TestSynchronisationDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/multithreading" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/multithreading" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +66,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadYieldImpl">
-    <configuration name="ThreadDaemonImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadDaemonImpl" />
+  <component name="RunManager" selected="Application.PrintTableImpl">
+    <configuration name="PrintTableImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.PrintTableImpl" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadJoinImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadJoinImpl" />
+    <configuration name="ThreadDaemonImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadDaemonImpl" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -134,19 +133,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.PrintTableImpl" />
       <item itemvalue="Application.ThreadYieldImpl" />
       <item itemvalue="Application.ThreadDaemonImpl" />
       <item itemvalue="Application.ThreadPriorityImpl" />
-      <item itemvalue="Application.ThreadJoinImpl" />
       <item itemvalue="Application.ThreadNamingImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintTableImpl" />
         <item itemvalue="Application.ThreadYieldImpl" />
         <item itemvalue="Application.ThreadDaemonImpl" />
         <item itemvalue="Application.ThreadPriorityImpl" />
         <item itemvalue="Application.ThreadNamingImpl" />
-        <item itemvalue="Application.ThreadJoinImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -481,14 +480,6 @@
       <option name="project" value="LOCAL" />
       <updated>1686826489514</updated>
     </task>
-    <task id="LOCAL-00054" summary="join method">
-      <option name="closed" value="true" />
-      <created>1688986286917</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1688986286917</updated>
-    </task>
     <task id="LOCAL-00055" summary="name method">
       <option name="closed" value="true" />
       <created>1688987469103</created>
@@ -505,7 +496,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689073967682</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="yield method">
+      <option name="closed" value="true" />
+      <created>1689246386877</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1689246386878</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,7 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="interface introduction" />
     <MESSAGE value="marker interface" />
     <MESSAGE value="packages" />
     <MESSAGE value="accessmodifiers" />
@@ -545,7 +543,8 @@
     <MESSAGE value="join method" />
     <MESSAGE value="name method" />
     <MESSAGE value="daemon thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="daemon thread" />
+    <MESSAGE value="yield method" />
+    <option name="LAST_COMMIT_MESSAGE" value="yield method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
