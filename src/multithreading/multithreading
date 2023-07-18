@@ -219,3 +219,8 @@ Homework
 6. finalized(),gc()
 7. Difference between final,finally & finalized()
 
+8. void withdrawMoney(double amount)
+	void deposit(double amount)
+	UserThread1
+	UserThread2
+

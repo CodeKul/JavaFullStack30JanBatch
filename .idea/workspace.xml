@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="yield method">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/TestSynchronisationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/BookTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadSynchronisedBlockDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/multithreading" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/multithreading" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrintTableImpl">
+  <component name="RunManager" selected="Application.BookTicketImpl">
+    <configuration name="BookTicketImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.BookTicketImpl" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrintTableImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.PrintTableImpl" />
       <module name="JavaFullStack30JanBatch" />
@@ -80,34 +95,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrintTableImpl2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.PrintTableImpl2" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadDaemonImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.ThreadDaemonImpl" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadNamingImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadNamingImpl" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadPriorityImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadPriorityImpl" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -133,19 +135,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BookTicketImpl" />
+      <item itemvalue="Application.PrintTableImpl2" />
       <item itemvalue="Application.PrintTableImpl" />
       <item itemvalue="Application.ThreadYieldImpl" />
       <item itemvalue="Application.ThreadDaemonImpl" />
-      <item itemvalue="Application.ThreadPriorityImpl" />
-      <item itemvalue="Application.ThreadNamingImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookTicketImpl" />
+        <item itemvalue="Application.PrintTableImpl2" />
         <item itemvalue="Application.PrintTableImpl" />
         <item itemvalue="Application.ThreadYieldImpl" />
         <item itemvalue="Application.ThreadDaemonImpl" />
-        <item itemvalue="Application.ThreadPriorityImpl" />
-        <item itemvalue="Application.ThreadNamingImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -480,14 +482,6 @@
       <option name="project" value="LOCAL" />
       <updated>1686826489514</updated>
     </task>
-    <task id="LOCAL-00055" summary="name method">
-      <option name="closed" value="true" />
-      <created>1688987469103</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1688987469103</updated>
-    </task>
     <task id="LOCAL-00056" summary="daemon thread">
       <option name="closed" value="true" />
       <created>1689073967682</created>
@@ -504,7 +498,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689246386878</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="yield method">
+      <option name="closed" value="true" />
+      <created>1689333693954</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1689333693955</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
