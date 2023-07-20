@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="static block,static synchronization">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/AccountTransaction.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Inter-thread communication">
+      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadPoolDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccountTransactionImpl">
+  <component name="RunManager" selected="Application.ThreadPoolDemo">
     <configuration name="AccountTransactionImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.AccountTransactionImpl" />
       <module name="JavaFullStack30JanBatch" />
@@ -119,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadYieldImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadYieldImpl" />
+    <configuration name="ThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadPoolDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -133,19 +133,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ThreadPoolDemo" />
       <item itemvalue="Application.AccountTransactionImpl" />
       <item itemvalue="Application.BookTicketImpl" />
       <item itemvalue="Application.PrintTableImpl2" />
       <item itemvalue="Application.PrintTableImpl" />
-      <item itemvalue="Application.ThreadYieldImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPoolDemo" />
         <item itemvalue="Application.AccountTransactionImpl" />
         <item itemvalue="Application.BookTicketImpl" />
         <item itemvalue="Application.PrintTableImpl2" />
         <item itemvalue="Application.PrintTableImpl" />
-        <item itemvalue="Application.ThreadYieldImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -480,14 +480,6 @@
       <option name="project" value="LOCAL" />
       <updated>1686826489514</updated>
     </task>
-    <task id="LOCAL-00057" summary="yield method">
-      <option name="closed" value="true" />
-      <created>1689246386877</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1689246386878</updated>
-    </task>
     <task id="LOCAL-00058" summary="yield method">
       <option name="closed" value="true" />
       <created>1689333693954</created>
@@ -504,7 +496,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689679807914</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Inter-thread communication">
+      <option name="closed" value="true" />
+      <created>1689765912725</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1689765912725</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="packages" />
     <MESSAGE value="accessmodifiers" />
     <MESSAGE value="Encapsulation" />
     <MESSAGE value="Arrays" />
@@ -544,7 +543,8 @@
     <MESSAGE value="daemon thread" />
     <MESSAGE value="yield method" />
     <MESSAGE value="static block,static synchronization" />
-    <option name="LAST_COMMIT_MESSAGE" value="static block,static synchronization" />
+    <MESSAGE value="Inter-thread communication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inter-thread communication" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
