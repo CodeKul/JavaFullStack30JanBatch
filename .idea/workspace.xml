@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Inter-thread communication">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadPoolDemo.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Thread Pool">
+      <change afterPath="$PROJECT_DIR$/src/collection/GenericsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/collection" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/ThreadPoolDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a6598dd6-8cad-4cfa-b6f3-485bc0869c4b" />
+        <option name="url" value="https://github.com/CodeKul/JavaFullStack30JanBatch.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/corretto-1.8.0_322/src.zip!/java/sql/ResultSet.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.30.jar!/com/mysql/jdbc/Driver.class" root0="SKIP_INSPECTION" />
@@ -37,25 +52,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/multithreading&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/collection",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/collection" />
       <recent name="$PROJECT_DIR$/src/multithreading" />
       <recent name="$PROJECT_DIR$/src/assignment" />
       <recent name="$PROJECT_DIR$/src/jdbc" />
       <recent name="$PROJECT_DIR$/src/exceptionexception" />
-      <recent name="$PROJECT_DIR$/src/stringdemo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/common" />
@@ -480,14 +495,6 @@
       <option name="project" value="LOCAL" />
       <updated>1686826489514</updated>
     </task>
-    <task id="LOCAL-00058" summary="yield method">
-      <option name="closed" value="true" />
-      <created>1689333693954</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1689333693955</updated>
-    </task>
     <task id="LOCAL-00059" summary="static block,static synchronization">
       <option name="closed" value="true" />
       <created>1689679807913</created>
@@ -504,7 +511,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689765912725</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Thread Pool">
+      <option name="closed" value="true" />
+      <created>1689848723171</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1689848723171</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +534,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="accessmodifiers" />
     <MESSAGE value="Encapsulation" />
     <MESSAGE value="Arrays" />
     <MESSAGE value="jagged array" />
@@ -544,7 +558,8 @@
     <MESSAGE value="yield method" />
     <MESSAGE value="static block,static synchronization" />
     <MESSAGE value="Inter-thread communication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inter-thread communication" />
+    <MESSAGE value="Thread Pool" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread Pool" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
