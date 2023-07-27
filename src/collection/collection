@@ -8,11 +8,14 @@ Generics
  2. Compile Time Checking
  3. Used with Collection
 
+
+
  Collection
     - root interface of collections framework hierarchy
 1. List(I)
 	- an ordered collection,follows the insertion order
 	- store & access elements sequentially
+	- allow duplicate elements
 2. ArrayList(C)
 	- provides the functionality of resizable-arrays
 	- implements List(I)
