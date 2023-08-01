@@ -13,5 +13,6 @@ public class ArrayListDemo {
         System.out.println("Nos "+nos);
         System.out.println("Element at 2nd index: "+nos.get(2));
         System.out.println("Remove element at 4th index: "+nos.remove(4));
+        System.out.println(nos.size());
     }
 }
