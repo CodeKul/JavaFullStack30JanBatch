@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Arraylist interface">
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="LinkedList">
+      <change afterPath="$PROJECT_DIR$/src/arrays/StarPattern3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/VectorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/ArrayListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/LinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/LinkedListDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,20 +80,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedListDemo">
-    <configuration name="AccountTransactionImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.AccountTransactionImpl" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StarPattern3">
     <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.ArrayListDemo" />
       <module name="JavaFullStack30JanBatch" />
@@ -133,12 +120,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadPoolDemo" />
+    <configuration name="StarPattern3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.StarPattern3" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.*" />
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VectorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.VectorDemo" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,19 +147,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.StarPattern3" />
+      <item itemvalue="Application.VectorDemo" />
       <item itemvalue="Application.LinkedListDemo" />
       <item itemvalue="Application.ArrayListDemo" />
       <item itemvalue="Application.ListDemo" />
-      <item itemvalue="Application.ThreadPoolDemo" />
-      <item itemvalue="Application.AccountTransactionImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StarPattern3" />
+        <item itemvalue="Application.VectorDemo" />
         <item itemvalue="Application.LinkedListDemo" />
         <item itemvalue="Application.ArrayListDemo" />
         <item itemvalue="Application.ListDemo" />
-        <item itemvalue="Application.ThreadPoolDemo" />
-        <item itemvalue="Application.AccountTransactionImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -494,14 +494,6 @@
       <option name="project" value="LOCAL" />
       <updated>1686826489514</updated>
     </task>
-    <task id="LOCAL-00063" summary="List interface">
-      <option name="closed" value="true" />
-      <created>1690456337535</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1690456337536</updated>
-    </task>
     <task id="LOCAL-00064" summary="List interface">
       <option name="closed" value="true" />
       <created>1690456439448</created>
@@ -518,7 +510,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690804528404</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="LinkedList">
+      <option name="closed" value="true" />
+      <created>1690889201482</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1690889201483</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,7 +533,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="multiplication" />
     <MESSAGE value="string class immutable" />
     <MESSAGE value="substring,split method" />
     <MESSAGE value="StringBuffer,StringBuilder" />
@@ -558,7 +557,8 @@
     <MESSAGE value="generics" />
     <MESSAGE value="List interface" />
     <MESSAGE value="Arraylist interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arraylist interface" />
+    <MESSAGE value="LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
