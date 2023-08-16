@@ -47,6 +47,9 @@ Generics
 8. LinkedHashSet(C)
 9. Queue(I)
 	- elements are stored & accessed in First In First Out(FIFO) manner
+	- insertion happens at rear end
+	- deletion happens at front end
+
 10. Priority Queue(C)
 	- unordered
 	- not a thread safe
