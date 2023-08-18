@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Queue">
-      <change afterPath="$PROJECT_DIR$/src/collection/LinkedHashSetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/SetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/TreeSetDemo.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Set">
+      <change afterPath="$PROJECT_DIR$/src/collection/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/collection" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/collection" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/corretto-1.8.0_322/src.zip!/java/sql/ResultSet.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.30.jar!/com/mysql/jdbc/Driver.class" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
     <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/util/ArrayDeque.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/util/Map.java" root0="SKIP_INSPECTION" />
     <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/util/Queue.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -89,20 +91,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SetDemo">
-    <configuration name="DequeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.DequeDemo" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Student">
     <configuration name="LinkedHashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.LinkedHashSetDemo" />
       <module name="JavaFullStack30JanBatch" />
@@ -116,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.PriorityQueueDemo" />
+    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.MapDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -131,6 +120,19 @@
     </configuration>
     <configuration name="SetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.SetDemo" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.Student" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -156,19 +158,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MapDemo" />
+      <item itemvalue="Application.Student" />
       <item itemvalue="Application.LinkedHashSetDemo" />
       <item itemvalue="Application.SetDemo" />
       <item itemvalue="Application.TreeSetDemo" />
-      <item itemvalue="Application.DequeDemo" />
-      <item itemvalue="Application.PriorityQueueDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.MapDemo" />
         <item itemvalue="Application.SetDemo" />
         <item itemvalue="Application.TreeSetDemo" />
         <item itemvalue="Application.LinkedHashSetDemo" />
-        <item itemvalue="Application.DequeDemo" />
-        <item itemvalue="Application.PriorityQueueDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -496,14 +498,6 @@
       <option name="project" value="LOCAL" />
       <updated>1686826489514</updated>
     </task>
-    <task id="LOCAL-00066" summary="LinkedList">
-      <option name="closed" value="true" />
-      <created>1690889201482</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1690889201483</updated>
-    </task>
     <task id="LOCAL-00067" summary="Vector">
       <option name="closed" value="true" />
       <created>1691062538958</created>
@@ -527,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692186604367</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Set">
+      <option name="closed" value="true" />
+      <created>1692271259412</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1692271259413</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -542,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Immutable class" />
     <MESSAGE value="Exception" />
     <MESSAGE value="Exception handling" />
     <MESSAGE value="finally block" />
@@ -567,7 +568,8 @@
     <MESSAGE value="Vector" />
     <MESSAGE value="Stack" />
     <MESSAGE value="Queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Queue" />
+    <MESSAGE value="Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

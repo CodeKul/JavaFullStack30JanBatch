@@ -109,7 +109,9 @@ Generics
 18. EnumMap
 	- stores key & value pair
 Hashing:
-	- process of converting an object into an integer value,The integer value helps in indexing & faster search
+	- process of converting an object into an unique integer value,The integer value helps in indexing & faster search
+
+
 
 Enum:
 	- Enumeration
@@ -124,3 +126,12 @@ Homework:
  How hashmap works internally?
  HashTable in collection?
  Difference between HashTable & HashMap?
+
+ class Emp{
+    String name;
+    String mobile;
+    Integer empId;
+ }
+
+
+
