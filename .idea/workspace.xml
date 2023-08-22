@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Internal working hashmap">
-      <change afterPath="$PROJECT_DIR$/src/collection/LinkedHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/TreeMapDemo.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Linked Hashmap,TreeMap">
+      <change afterPath="$PROJECT_DIR$/src/innerclass/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/innerclass/OuterLocalMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/innerclass/innerclass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,25 +63,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/madhuri/workspace/2023/JavaFullStack30JanBatch&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/innerclass",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/innerclass" />
       <recent name="$PROJECT_DIR$/src/assignment" />
       <recent name="$PROJECT_DIR$/src/collection" />
       <recent name="$PROJECT_DIR$/src/multithreading" />
       <recent name="$PROJECT_DIR$/src/jdbc" />
-      <recent name="$PROJECT_DIR$/src/exceptionexception" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/common" />
@@ -91,7 +92,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeMapDemo">
+  <component name="RunManager" selected="Application.OuterLocalImpl">
     <configuration name="LinkedHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.LinkedHashMapDemo" />
       <module name="JavaFullStack30JanBatch" />
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.MapDemo" />
+    <configuration name="OuterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="innerclass.OuterDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="innerclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.SetDemo" />
+    <configuration name="OuterLocalImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="innerclass.OuterLocalImpl" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="innerclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,19 +159,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.OuterDemo" />
+      <item itemvalue="Application.OuterLocalImpl" />
       <item itemvalue="Application.LinkedHashMapDemo" />
       <item itemvalue="Application.TreeMapDemo" />
-      <item itemvalue="Application.MapDemo" />
       <item itemvalue="Application.Student" />
-      <item itemvalue="Application.SetDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OuterLocalImpl" />
+        <item itemvalue="Application.OuterDemo" />
         <item itemvalue="Application.TreeMapDemo" />
         <item itemvalue="Application.LinkedHashMapDemo" />
         <item itemvalue="Application.Student" />
-        <item itemvalue="Application.MapDemo" />
-        <item itemvalue="Application.SetDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -505,14 +506,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692013051834</updated>
     </task>
-    <task id="LOCAL-00069" summary="Queue">
-      <option name="closed" value="true" />
-      <created>1692186604367</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1692186604367</updated>
-    </task>
     <task id="LOCAL-00070" summary="Set">
       <option name="closed" value="true" />
       <created>1692271259412</created>
@@ -529,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692358691422</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Linked Hashmap,TreeMap">
+      <option name="closed" value="true" />
+      <created>1692619910936</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1692619910937</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,7 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exception handling" />
     <MESSAGE value="finally block" />
     <MESSAGE value="throw keyword,custom exception" />
     <MESSAGE value="throws keyword,Exp propagation" />
@@ -569,7 +569,8 @@
     <MESSAGE value="Queue" />
     <MESSAGE value="Set" />
     <MESSAGE value="Internal working hashmap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Internal working hashmap" />
+    <MESSAGE value="Linked Hashmap,TreeMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked Hashmap,TreeMap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
