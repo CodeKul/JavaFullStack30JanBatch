@@ -25,6 +25,7 @@ Features:
 4. Method Reference
 	- prerequisites are functional interface & lambda exp
 	- we can replace lambda exp with method ref
+	- used to refer method of functional interface
 	Types of Method References
 	1. Reference to a static method
 	2. Reference to an instance method

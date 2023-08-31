@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Inner class">
-      <change afterPath="$PROJECT_DIR$/src/java8/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/Showable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/InstanceMethodReferenceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/MethodRefDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/OptionalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/StaticMethodReferenceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8/java8" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/java8" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,13 +94,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShapeImpl">
-    <configuration name="OuterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="innerclass.OuterDemo" />
+  <component name="RunManager" selected="Application.InstanceMethodReferenceImpl">
+    <configuration name="InstanceMethodReferenceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.InstanceMethodReferenceImpl" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="innerclass.*" />
+          <option name="PATTERN" value="java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OuterLocalImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="innerclass.OuterLocalImpl" />
+    <configuration name="OptionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.OptionalDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="innerclass.*" />
+          <option name="PATTERN" value="java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,19 +161,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.InstanceMethodReferenceImpl" />
+      <item itemvalue="Application.OptionalDemo" />
       <item itemvalue="Application.ShapeImpl" />
       <item itemvalue="Application.StaticOuterImpl" />
       <item itemvalue="Application.TestAnonymous1" />
-      <item itemvalue="Application.OuterDemo" />
-      <item itemvalue="Application.OuterLocalImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InstanceMethodReferenceImpl" />
+        <item itemvalue="Application.OptionalDemo" />
         <item itemvalue="Application.ShapeImpl" />
         <item itemvalue="Application.TestAnonymous1" />
         <item itemvalue="Application.StaticOuterImpl" />
-        <item itemvalue="Application.OuterLocalImpl" />
-        <item itemvalue="Application.OuterDemo" />
       </list>
     </recent_temporary>
   </component>
