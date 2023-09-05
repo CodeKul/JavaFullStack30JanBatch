@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Method Reference">
-      <change afterPath="$PROJECT_DIR$/src/collection/ConsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/ForEach1Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/StringJoinerDemo.java" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="For Each method">
+      <change afterPath="$PROJECT_DIR$/src/java8/BiConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/ThreadDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8/ForEach1Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/ForEach1Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java8/java8" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/java8" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +94,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringJoinerDemo">
+  <component name="RunManager" selected="Application.ForEach1Demo">
+    <configuration name="BiConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.BiConsumerDemo" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.ConsumerDemo" />
       <module name="JavaFullStack30JanBatch" />
@@ -121,32 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceMethodReferenceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.InstanceMethodReferenceImpl" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OptionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.OptionalDemo" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringJoinerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.StringJoinerDemo" />
       <module name="JavaFullStack30JanBatch" />
@@ -160,20 +147,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.ThreadDemo" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.BiConsumerDemo" />
+      <item itemvalue="Application.ThreadDemo" />
       <item itemvalue="Application.ConsumerDemo" />
       <item itemvalue="Application.ForEach1Demo" />
       <item itemvalue="Application.StringJoinerDemo" />
-      <item itemvalue="Application.InstanceMethodReferenceImpl" />
-      <item itemvalue="Application.OptionalDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringJoinerDemo" />
         <item itemvalue="Application.ForEach1Demo" />
+        <item itemvalue="Application.BiConsumerDemo" />
+        <item itemvalue="Application.ThreadDemo" />
+        <item itemvalue="Application.StringJoinerDemo" />
         <item itemvalue="Application.ConsumerDemo" />
-        <item itemvalue="Application.InstanceMethodReferenceImpl" />
-        <item itemvalue="Application.OptionalDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -508,14 +508,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692013051834</updated>
     </task>
-    <task id="LOCAL-00073" summary="Inner class">
-      <option name="closed" value="true" />
-      <created>1692703734147</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1692703734147</updated>
-    </task>
     <task id="LOCAL-00074" summary="Inner class">
       <option name="closed" value="true" />
       <created>1692790139105</created>
@@ -532,7 +524,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693481278678</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="For Each method">
+      <option name="closed" value="true" />
+      <created>1693827424793</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1693827424794</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="throws keyword,Exp propagation" />
     <MESSAGE value="MySql" />
     <MESSAGE value="Jdbc" />
     <MESSAGE value="Jdbc procedure" />
@@ -572,7 +571,8 @@
     <MESSAGE value="Linked Hashmap,TreeMap" />
     <MESSAGE value="Inner class" />
     <MESSAGE value="Method Reference" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method Reference" />
+    <MESSAGE value="For Each method" />
+    <option name="LAST_COMMIT_MESSAGE" value="For Each method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -941,6 +941,11 @@
           <url>file://$PROJECT_DIR$/src/multithreading/ThreadSleepDemo.java</url>
           <line>18</line>
           <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java8/ForEach1Demo.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/statickeyword/CounterDemo.java</url>
