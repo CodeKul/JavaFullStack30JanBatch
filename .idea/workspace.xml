@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="For Each method">
-      <change afterPath="$PROJECT_DIR$/src/java8/BiConsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/FunctionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/PredicateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/StreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java8/ForEach1Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/ForEach1Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java8/java8" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/java8" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +48,12 @@
     <setting file="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.30.jar!/com/mysql/jdbc/Driver.class" root0="SKIP_INSPECTION" />
     <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/lang/Iterable.java" root0="SKIP_INSPECTION" />
     <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
     <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/util/ArrayDeque.java" root0="SKIP_INSPECTION" />
     <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/util/LinkedHashMap.java" root0="SKIP_INSPECTION" />
     <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/util/Map.java" root0="SKIP_INSPECTION" />
     <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/util/Queue.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/util/function/Consumer.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,18 +67,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/java8&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/java8",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/java8" />
@@ -94,33 +96,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ForEach1Demo">
-    <configuration name="BiConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.BiConsumerDemo" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.ConsumerDemo" />
-      <module name="JavaFullStack30JanBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StreamDemo">
     <configuration name="ForEach1Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.ForEach1Demo" />
       <module name="JavaFullStack30JanBatch" />
@@ -134,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringJoinerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.StringJoinerDemo" />
+    <configuration name="FunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.FunctionDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
@@ -147,12 +123,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.ThreadDemo" />
+    <configuration name="PredicateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.PredicateDemo" />
       <module name="JavaFullStack30JanBatch" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.StreamDemo" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadYieldImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadYieldImpl" />
+      <module name="JavaFullStack30JanBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,19 +163,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BiConsumerDemo" />
-      <item itemvalue="Application.ThreadDemo" />
-      <item itemvalue="Application.ConsumerDemo" />
+      <item itemvalue="Application.FunctionDemo" />
+      <item itemvalue="Application.PredicateDemo" />
+      <item itemvalue="Application.StreamDemo" />
+      <item itemvalue="Application.ThreadYieldImpl" />
       <item itemvalue="Application.ForEach1Demo" />
-      <item itemvalue="Application.StringJoinerDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamDemo" />
+        <item itemvalue="Application.FunctionDemo" />
+        <item itemvalue="Application.PredicateDemo" />
+        <item itemvalue="Application.ThreadYieldImpl" />
         <item itemvalue="Application.ForEach1Demo" />
-        <item itemvalue="Application.BiConsumerDemo" />
-        <item itemvalue="Application.ThreadDemo" />
-        <item itemvalue="Application.StringJoinerDemo" />
-        <item itemvalue="Application.ConsumerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -508,14 +510,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692013051834</updated>
     </task>
-    <task id="LOCAL-00074" summary="Inner class">
-      <option name="closed" value="true" />
-      <created>1692790139105</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1692790139106</updated>
-    </task>
     <task id="LOCAL-00075" summary="Method Reference">
       <option name="closed" value="true" />
       <created>1693481278677</created>
@@ -532,7 +526,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693827424794</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="For Each method">
+      <option name="closed" value="true" />
+      <created>1693913540649</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1693913540649</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
