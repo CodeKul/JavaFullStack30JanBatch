@@ -1,0 +1,24 @@
+Types of Data Language
+1. Data Definition Language(DDL)
+	a. create a db,table,store procedure,function and triggers
+	b. alter
+	c. drop
+	d. truncate
+	e. rename
+
+2. Data Manipulation Language(DML)
+	- store,retrieve,modify,delete
+	a. select
+	b. insert
+	c. update
+	d. delete
+
+3. Data Control Language(DCL)
+	- grant & revoke permissions for users
+	a. grant
+	b. revoke
+
+4. Transactional Control Language(TCL)
+	a. roll back - used to cancel or undo the changes which we have done in the db
+	b. commit - used to save changes in the db
+	c. Save Point - used to save the data on temporary basis

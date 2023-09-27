@@ -1,0 +1,40 @@
+ --> create USER codekul with PASSWORD 'codekul123'
+
+
+ CREATE TABLE student
+ (
+     id bigint,
+     first_name character varying ,
+     last_name character varying ,
+     age integer,
+     school_name character varying
+ )
+
+insert into student(first_name,last_name,age,id,school_name)
+values('Prerna','Jadhav',24,6,'DNS');
+
+insert into student(first_name,last_name,age,id,school_name)
+values('Darshan','Patil',26,5,'RRV');
+
+insert into student(first_name,last_name,age,id,school_name)
+values('Ankit','Meshram',26,5,'DDY');
+
+update student set id = 4 where first_name = 'Darshan';
+
+------------- Sorting
+select * from student order by id ;
+
+select * from student order by id DESC;
+-----------
+Alter table student Add column mobile_no varchar;
+
+update student set mobile_no = '9865324152' where first_name = 'Ankit'
+and id =  2;
+
+--------------------------------
+update student set mobile_no = '9865324152' where first_name = 'Ankit'
+and id =  2;
+
+truncate table student;
+
+drop table student;

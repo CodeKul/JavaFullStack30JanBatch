@@ -1,0 +1,48 @@
+
+*** Show tables from the current db
+Sep20=> \dt
+          List of relations
+ Schema |  Name   | Type  |  Owner
+--------+---------+-------+----------
+ public | student | table | postgres
+(1 row)
+
+Sep20=> \dt+
+                                      List of relations
+ Schema |  Name   | Type  |  Owner   | Persistence | Access method |    Size    | Description
+--------+---------+-------+----------+-------------+---------------+------------+-------------
+ public | student | table | postgres | permanent   | heap          | 8192 bytes |
+(1 row)
+
+*** user creation
+1.  madhuri@madhuri:~$ sudo -u postgres createuser madhuri;
+2.  madhuri@madhuri:~$ sudo -u postgres psql
+3.
+
+*** drop user
+postgres=# drop user test;
+DROP ROLE
+postgres=# drop user madhuri;
+DROP ROLE
+
+
+postgres=# create database Sep20;
+CREATE DATABASE
+
+postgres=# alter user madhuri with encrypted password '123456';
+ALTER ROLE
+
+postgres=# revoke all privileges on database Sep20 from madhuri;
+REVOKE
+
+
+Sep20=> \d student
+                     Table "public.student"
+   Column   |       Type        | Collation | Nullable | Default
+------------+-------------------+-----------+----------+---------
+ rno        | integer           |           |          |
+ sname      | character varying |           | not null |
+ div        | character varying |           |          |
+ address    | character varying |           |          |
+ percentage | double precision  |           |          |
+

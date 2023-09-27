@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="For Each method">
-      <change afterPath="$PROJECT_DIR$/src/java8/FunctionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/PredicateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/StreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Stream method">
+      <change afterPath="$PROJECT_DIR$/src/postgresql/database" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/postgresql/psql cmds" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/postgresql/psql commands" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,7 @@
     <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
     <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
     <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/util/ArrayDeque.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/util/Collection.java" root0="SKIP_INSPECTION" />
     <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/util/LinkedHashMap.java" root0="SKIP_INSPECTION" />
     <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/util/Map.java" root0="SKIP_INSPECTION" />
     <setting file="jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/util/Queue.java" root0="SKIP_INSPECTION" />
@@ -67,18 +67,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/java8",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/madhuri/workspace/2023/JavaFullStack30JanBatch/src/java8&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/java8" />
@@ -88,6 +88,7 @@
       <recent name="$PROJECT_DIR$/src/multithreading" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/postgresql" />
       <recent name="$PROJECT_DIR$/src/common" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -163,11 +164,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ForEach1Demo" />
       <item itemvalue="Application.FunctionDemo" />
       <item itemvalue="Application.PredicateDemo" />
       <item itemvalue="Application.StreamDemo" />
       <item itemvalue="Application.ThreadYieldImpl" />
-      <item itemvalue="Application.ForEach1Demo" />
     </list>
     <recent_temporary>
       <list>
@@ -510,14 +511,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692013051834</updated>
     </task>
-    <task id="LOCAL-00075" summary="Method Reference">
-      <option name="closed" value="true" />
-      <created>1693481278677</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1693481278678</updated>
-    </task>
     <task id="LOCAL-00076" summary="For Each method">
       <option name="closed" value="true" />
       <created>1693827424793</created>
@@ -534,7 +527,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693913540649</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Stream method">
+      <option name="closed" value="true" />
+      <created>1694605193384</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1694605193384</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MySql" />
     <MESSAGE value="Jdbc" />
     <MESSAGE value="Jdbc procedure" />
     <MESSAGE value="multithreading introduction" />
@@ -574,7 +574,8 @@
     <MESSAGE value="Inner class" />
     <MESSAGE value="Method Reference" />
     <MESSAGE value="For Each method" />
-    <option name="LAST_COMMIT_MESSAGE" value="For Each method" />
+    <MESSAGE value="Stream method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
