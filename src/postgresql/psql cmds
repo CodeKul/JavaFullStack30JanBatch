@@ -38,3 +38,15 @@ and id =  2;
 truncate table student;
 
 drop table student;
+
+Homework:
+Table Name : Employee
+ 1. empid
+ 2. first name
+ 3. middle name
+ 4. last name
+ 5. city
+ 6. address
+ 7. mobile_no
+ 8. salary
+ 9. bonus
