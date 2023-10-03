@@ -6,6 +6,12 @@ CREATE TABLE dept(
        constraint pk_dept primary key (deptno)
 );
 
+CREATE TABLE dept(
+    deptno INT primary key,
+    dname VARCHAR(15),
+    city VARCHAR(15)
+);
+
 — Creating EMP table.
 CREATE TABLE emp(
     empno INT,
@@ -18,6 +24,17 @@ CREATE TABLE emp(
     deptno INT,
    constraint pk_emp primary key (empno),
    constraint fk_deptno foreign key (deptno) references dept (deptno)
+);
+
+CREATE TABLE emp(
+    id INT  primary key ,
+    emp_name VARCHAR(10),
+    job VARCHAR(9),
+    mgr INT,
+    hiredate DATE,
+    salary DECIMAL(7,2),
+    bonus DECIMAL(7,2),
+    dept_id INT references department(id)
 );
 
 — Data Insertion in DEPT table

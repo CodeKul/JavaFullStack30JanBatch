@@ -22,3 +22,19 @@ Types of Data Language
 	a. roll back - used to cancel or undo the changes which we have done in the db
 	b. commit - used to save changes in the db
 	c. Save Point - used to save the data on temporary basis
+
+
+Primary Key
+	- unique data
+	- prevents duplication of records
+	- can not be null
+	- maintain relationships between tables
+
+Foreign key
+
+Join
+- to combine columns from one or more tables based on values of common columns between two tables
+
+
+select e.emp_name,e.job,d.department from department d
+inner join employee e on e.dept_id = d.id

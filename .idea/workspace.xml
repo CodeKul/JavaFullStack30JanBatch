@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Stream method">
-      <change afterPath="$PROJECT_DIR$/src/postgresql/database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/postgresql/psql cmds" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/postgresql/psql commands" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment/sample_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment/sample_database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/postgresql/database" beforeDir="false" afterPath="$PROJECT_DIR$/src/postgresql/database" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -511,14 +510,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692013051834</updated>
     </task>
-    <task id="LOCAL-00076" summary="For Each method">
-      <option name="closed" value="true" />
-      <created>1693827424793</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1693827424794</updated>
-    </task>
     <task id="LOCAL-00077" summary="For Each method">
       <option name="closed" value="true" />
       <created>1693913540649</created>
@@ -535,7 +526,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694605193384</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Stream method">
+      <option name="closed" value="true" />
+      <created>1695814984208</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1695814984209</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
