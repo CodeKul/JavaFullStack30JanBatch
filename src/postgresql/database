@@ -35,6 +35,15 @@ Foreign key
 Join
 - to combine columns from one or more tables based on values of common columns between two tables
 
+Inner JOIN
+	select e.emp_name,e.job,d.department from department d
+	inner join employee e on e.dept_id = d.id
 
-select e.emp_name,e.job,d.department from department d
-inner join employee e on e.dept_id = d.id
+Left JOIN
+
+select e.id,e.emp_name,e.job,d.id,d.department from employee e
+LEFT join department d on d.id = e.dept_id
+
+
+select e.id,e.emp_name,e.job,d.id,d.department from employee e
+right join department d on d.id = e.dept_id
