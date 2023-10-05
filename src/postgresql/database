@@ -47,3 +47,13 @@ LEFT join department d on d.id = e.dept_id
 
 select e.id,e.emp_name,e.job,d.id,d.department from employee e
 right join department d on d.id = e.dept_id
+
+select id as "ID",emp_name "Name",job "Job",salary,bonus,(salary+coalesce(bonus,0)) "Salary" from employee
+order by emp_name asc
+
+select * from employee where JOB = 'MANAGER' OR JOB = 'CLERK'
+select * from employee where JOB in ('MANAGER','CLERK')
+
+select * from employee  where emp_name ilike '%a%'
+
+select * from employee  where salary between 1500 and 2000

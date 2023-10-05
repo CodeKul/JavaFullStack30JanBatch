@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="Primary key,Foreign key and Join">
-      <change afterPath="$PROJECT_DIR$/src/postgresql/img.png" afterDir="false" />
+    <list default="true" id="e05fe4cf-7274-4482-8cbd-ea90e4ed315e" name="Changes" comment="JOINS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/postgresql/database" beforeDir="false" afterPath="$PROJECT_DIR$/src/postgresql/database" afterDir="false" />
     </list>
@@ -510,14 +509,6 @@
       <option name="project" value="LOCAL" />
       <updated>1692013051834</updated>
     </task>
-    <task id="LOCAL-00078" summary="Stream method">
-      <option name="closed" value="true" />
-      <created>1694605193384</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1694605193384</updated>
-    </task>
     <task id="LOCAL-00079" summary="Stream method">
       <option name="closed" value="true" />
       <created>1695814984208</created>
@@ -534,7 +525,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696334330669</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="JOINS">
+      <option name="closed" value="true" />
+      <created>1696419214693</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1696419214693</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Jdbc procedure" />
     <MESSAGE value="multithreading introduction" />
     <MESSAGE value="multithreading METHODS" />
     <MESSAGE value="join method" />
@@ -574,7 +572,8 @@
     <MESSAGE value="For Each method" />
     <MESSAGE value="Stream method" />
     <MESSAGE value="Primary key,Foreign key and Join" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primary key,Foreign key and Join" />
+    <MESSAGE value="JOINS" />
+    <option name="LAST_COMMIT_MESSAGE" value="JOINS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
