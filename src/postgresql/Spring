@@ -1,0 +1,28 @@
+- lightweight,open-source application development framework(pre-written code)
+- framework of frameworks
+	eg. Struts,Hibernate
+- variants of Springs are Spring MVC,Spring Boot, Spring Security
+- DI and IoC allow us to create large scale & loosely-coupled applications
+
+Advantages:
+1. Plain Old Java Object(POJO)
+	- makes the applications lightweight
+
+2.Modularity
+	- IoC allow us to reuse components throughout the application without manually
+	  creating/managing dependencies
+
+3. Strong support for Java
+4. Scalable Transactions
+5. Secure
+
+Feature
+1. IoC
+
+2. Aspect Oriented Programming(AOP)
+
+3. Dependency Injection
+
+4. MVC
+
+5. Error Handling
